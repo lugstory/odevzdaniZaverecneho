@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 afe9224dbb9489e28a8a6461b73434db4cc90649 lugstory <lukas.hess147@gmail.com> 1773783786 +0100	branch: Created from afe9224dbb9489e28a8a6461b73434db4cc90649
+afe9224dbb9489e28a8a6461b73434db4cc90649 fa33b5ba86c3eee2657ed6ce94017dd28b5e1c5f lugstory <lukas.hess147@gmail.com> 1773784316 +0100	commit: fix: remove unimplemented games
+fa33b5ba86c3eee2657ed6ce94017dd28b5e1c5f 1007b4ac3316328723f80fe75f069df12e48a422 lugstory <lukas.hess147@gmail.com> 1773784945 +0100	commit: feat: move all balance changes to server-side API
+1007b4ac3316328723f80fe75f069df12e48a422 e92dba2df6607a2093708e8286b719db21816fd2 lugstory <lukas.hess147@gmail.com> 1773785177 +0100	commit: feat: remove add balance button from homepage
+e92dba2df6607a2093708e8286b719db21816fd2 06aa35afd77678eaa5830acd62222e14921e3e9d lugstory <lukas.hess147@gmail.com> 1773785873 +0100	commit: feat: add realistic max bets to all games
+06aa35afd77678eaa5830acd62222e14921e3e9d 40afc42f6f88ca87651d7768d6719a2e98b52d2f lugstory <lukas.hess147@gmail.com> 1773816324 +0100	commit: feat: fix auto cashout and remove cash out all button when all bets are cashed out
+40afc42f6f88ca87651d7768d6719a2e98b52d2f 283afed504405ac62626afc925873dfb56c1c06d lugstory <lukas.hess147@gmail.com> 1773818823 +0100	commit: feat: add blackjack game with split and double functionality
+283afed504405ac62626afc925873dfb56c1c06d e48c684a74668c3a86b07fe2709dbcd986dbe537 lugstory <lukas.hess147@gmail.com> 1773819708 +0100	commit: fix: Deduct bet amount when dealing cards in blackjack game
+e48c684a74668c3a86b07fe2709dbcd986dbe537 ad764254c4ceda858179b7a38499f0643b7e0514 lugstory <lukas.hess147@gmail.com> 1773822004 +0100	commit: feat: add mines game with configurable mines and betting system
+ad764254c4ceda858179b7a38499f0643b7e0514 567fa302825a585fec2414ebe2673e6001151507 lugstory (aider) <lukas.hess147@gmail.com> 1773831478 +0100	commit: feat: update mines game with worse RTP calculation and warning
+567fa302825a585fec2414ebe2673e6001151507 893a80e120a9f698926ee8defdea9bdfa6d71be8 lugstory <lukas.hess147@gmail.com> 1773831493 +0100	commit: feat: reveal all mines when game ends
+893a80e120a9f698926ee8defdea9bdfa6d71be8 c78a95fe0b04215504252fdc922e693430e9522b lugstory <lukas.hess147@gmail.com> 1773841048 +0100	commit: fix: correct double down bet amount deduction
+c78a95fe0b04215504252fdc922e693430e9522b 83b97fb8ae7d281f861a85be334b80f3f6a68bc5 lugstory <lukas.hess147@gmail.com> 1773956671 +0100	commit: fix: make double function async to use await updateBalance
+83b97fb8ae7d281f861a85be334b80f3f6a68bc5 1d66697402a640e77ae5d2dfbc92b5a7aec1b0d8 lugstory <lukas.hess147@gmail.com> 1773956989 +0100	commit: fix: allow split for same value cards
+1d66697402a640e77ae5d2dfbc92b5a7aec1b0d8 86a0a82c9695887b215fb9f0a6636d871a30ca48 lugstory <lukas.hess147@gmail.com> 1773957536 +0100	commit: feat: add leaderboard showing top 10 players
+86a0a82c9695887b215fb9f0a6636d871a30ca48 090a5feb32aea783a481b73b1020061243dbd28b lugstory <lukas.hess147@gmail.com> 1773957985 +0100	commit: docs: add project documentation template
+090a5feb32aea783a481b73b1020061243dbd28b d479122ec5922d79eda84a887ad4215db55aa68f lugstory <lukas.hess147@gmail.com> 1773958205 +0100	commit: docs: add PUPS Casino project documentation

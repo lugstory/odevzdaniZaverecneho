@@ -1,0 +1,970 @@
+
+# 2026-01-18 20:01:40.174823
++make me a next.js project from scratch
+
+# 2026-01-18 20:06:42.425618
++great, that works nice, now lets transform it into this app:
+
+# 2026-01-18 20:06:49.027717
++We are building a play-money online casino inspired by stake.com.
++
++Create a modern Next.js app with:
++- Dark casino UI (neon, glassmorphism)
++- Homepage similar to stake.com with:
++  - featured games
++  - categories (Slots, Originals, Live, New)
++  - game grid with thumbnails
++- User system:
++  - register/login
++  - balance of virtual coins
++  - daily bonus
++- Games:
++  - Dice
++  - Crash
++  - Roulette
++  - Slot machine
++- Each game must:
++  - allow betting virtual coins
++  - show win/loss
++  - update user balance
++- Leaderboard
++- Responsive design
++
++Use Tailwind and modern UI components.
++Store users and balances in a database or local storage for now.
++
+
+# 2026-01-18 20:07:03.144619
++a
+
+# 2026-01-18 20:07:55.470390
++/run npm run dev
+
+# 2026-01-18 20:08:18.100306
++nothing changed on the site
+
+# 2026-01-18 20:08:59.561663
++/run npm run dev
+
+# 2026-01-18 20:12:43.439007
++the website is stuck on compiling and doesnt have any css styling
+
+# 2026-01-18 20:13:43.291526
++a
+
+# 2026-01-18 20:15:18.108955
++/run npm run dev
+
+# 2026-01-18 20:15:32.720764
++n
+
+# 2026-01-18 20:15:38.766257
++/run npm install
+
+# 2026-01-18 20:15:45.102409
++n
+
+# 2026-01-18 20:16:23.526910
++Error evaluating Node.js code
++Error: Cannot find module 'tailwindcss'
++Require stack:
++- /home/lugstory/zaverecnyProjekt/.next/dev/build/chunks/[root-of-the-server]__6d51cb5d._.js
++- /home/lugstory/zaverecnyProjekt/.next/dev/build/chunks/[turbopack]_runtime.js
++- /home/lugstory/zaverecnyProjekt/.next/dev/build/postcss.js
++    [at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)]
++    [at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)]
++    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)]
++    [at Module._load (node:internal/modules/cjs/loader:1226:37)]
++    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
++    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
++    [at Module.require (node:internal/modules/cjs/loader:1503:12)]
++    [at require (node:internal/modules/helpers:152:16)]
++    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
++    [at <anonymous>]
++
++Import trace:
++  Browser:
++    ./styles/globals.css
++    ./pages/_app.js
+
+# 2026-01-18 20:16:39.175289
++n
+
+# 2026-01-18 20:17:02.303425
++/run npm install
+
+# 2026-01-18 20:17:12.152558
++n
+
+# 2026-01-18 20:17:19.811088
++/run npm run dev
+
+# 2026-01-18 20:18:18.544419
++okay, nice start but its still stuck on compiling, should i be worried?
+
+# 2026-01-18 20:18:59.490255
++n
+
+# 2026-01-18 20:19:16.248101
++/drop "After updating the `package.json`, you should run"
+
+# 2026-01-18 20:19:22.982298
++/ls
+
+# 2026-01-18 20:19:53.742818
++okay great lets implement the very first game, crash
+
+# 2026-01-18 20:21:35.771750
++/run npm run dev
+
+# 2026-01-18 20:23:04.519828
++n
+
+# 2026-01-18 20:23:39.836006
++make requirements of actual bet amounts and where to stop the crash, and it also didnt draw any money from the balance, so implement that as well
+
+# 2026-01-18 20:26:01.654202
++/run npm run dev
+
+# 2026-01-18 20:28:26.180239
++n
+
+# 2026-01-18 20:29:18.140312
++okay so two things, the crash multiplier goes WAAAAY too fast and also is too "op", i want it realistic-ish, also why does it say when the crash is going to happen? fix that
+
+# 2026-01-18 20:29:47.997799
++/run npm run dev
+
+# 2026-01-18 20:31:58.787249
++n
+
+# 2026-01-18 20:32:23.453784
++okay now for some reason the crash goes waay too far and then goes backwards instead of losing the bet
+
+# 2026-01-18 20:33:47.910277
++/run npm run dev
+
+# 2026-01-18 20:34:35.293978
++n
+
+# 2026-01-18 20:35:30.443837
++okay now make the game backend run, so the player can only bet when the crash is in waiting period
+
+# 2026-01-18 20:36:37.372764
++/run npm run dev
+
+# 2026-01-18 20:39:12.003576
++n
+
+# 2026-01-18 20:45:12.577925
++now make a slot machine, with 3 rolling columns and a classic system of denominations and bets
+
+# 2026-01-18 20:46:26.065780
++/run npm run dev
+
+# 2026-01-18 20:47:05.505946
++Whats wrong? fix
+
+# 2026-01-18 20:47:33.104323
++/run npm run dev
+
+# 2026-01-18 20:47:58.877761
++n
+
+# 2026-01-18 20:48:09.236736
++add the button for the slot you made
+
+# 2026-01-18 20:50:36.525028
++/run npm run dev
+
+# 2026-01-18 20:52:31.920908
++What's wrong? Fix it, maybe create an empty placeholder but tell me what i should put there
+
+# 2026-01-18 20:54:27.455739
++/run npm run dev
+
+# 2026-01-18 20:54:54.124682
++n
+
+# 2026-01-18 20:55:26.205874
++make the crash minigame run always in the background and the users will just connect to it and see if others lost or won
+
+# 2026-01-18 20:56:43.580587
++/run npm run dev
+
+# 2026-01-18 20:58:00.716900
++n
+
+# 2026-01-18 20:58:11.762657
++make it round off the crash multiplier
+
+# 2026-01-18 20:59:28.996237
++/drop "1. Added rounding in the game loop"
+
+# 2026-01-18 20:59:32.396560
++/run npm run dev
+
+# 2026-01-18 20:59:50.680661
++n
+
+# 2026-01-18 20:59:54.475389
++## Error Type
++Recoverable Error
++
++## Error Message
++Text content does not match server-rendered HTML.
++
++Next.js version: 16.1.3 (Turbopack)
++
+
+# 2026-01-18 21:02:18.302541
++/run npm run dev
+
+# 2026-01-18 21:03:09.722451
++n
+
+# 2026-01-18 21:03:12.704774
++now i cant bet
+
+# 2026-01-18 21:04:15.246930
++/run npm run dev
+
+# 2026-01-18 21:05:30.654265
++n
+
+# 2026-01-18 21:05:52.726651
++remove the cash out button when theres no bets from the player
+
+# 2026-01-18 21:08:09.818474
++/run npm run dev
+
+# 2026-01-18 21:09:06.698663
++n
+
+# 2026-01-18 21:09:49.537242
++make the cash out button dissappear when there are no bets left
+
+# 2026-01-18 21:11:03.216765
++n
+
+# 2026-01-18 21:11:13.541921
++/run npm run dev
+
+# 2026-01-18 21:11:37.573894
++n
+
+# 2026-01-18 21:11:43.672861
++the auto stop bet doesnt work
+
+# 2026-01-18 21:12:48.688560
++n
+
+# 2026-01-18 21:12:56.163075
++/run npm run dev
+
+# 2026-01-18 21:15:46.923490
++n
+
+# 2026-01-18 21:15:59.199255
++the balance isnt website wide, save it into a database or something
+
+# 2026-01-18 21:19:18.798363
++/run npm run dev
+
+# 2026-01-18 21:20:14.225464
++n
+
+# 2026-01-19 08:27:17.065124
++/model openrouter/mistralai/devstral-2512:free
+
+# 2026-01-19 08:27:25.849803
++/weak-model openrouter/mistralai/devstral-2512:free
+
+# 2026-01-19 08:27:47.583973
++add a button for adding 1000$ to the account
+
+# 2026-01-19 08:28:16.192993
++/run npm run dev
+
+# 2026-01-19 08:28:40.637138
++n
+
+# 2026-01-19 08:28:56.713516
++the balance doesnt show on the games sites
+
+# 2026-01-19 08:45:01.473236
++/run npm run dev
+
+# 2026-01-19 08:45:26.501822
++n
+
+# 2026-01-19 08:45:51.015798
++in slots and crash theres zero balance even when there is 1000 in the home page
+
+# 2026-01-19 08:46:49.035107
++/run npm run dev
+
+# 2026-01-19 08:47:04.632188
++n
+
+# 2026-01-19 08:47:44.116235
++make it so that theres a database that saves in between server starts using next.js that stores user balances and uses them all across the platform
+
+# 2026-01-19 08:49:29.148298
++/weak-model fast
+
+# 2026-01-19 08:49:37.426091
++/models
+
+# 2026-01-19 08:49:43.727576
++/run npm run dev
+
+# 2026-01-19 08:50:08.441322
++n
+
+# 2026-01-19 08:50:40.249863
++when i click the add button a few times when i refresh it still says a 1000$
+
+# 2026-01-19 08:51:16.784407
++/help
+
+# 2026-01-19 08:52:16.551593
++/run npm run dev
+
+# 2026-01-19 08:52:51.903048
++it still doesnt add the balance
+
+# 2026-01-19 08:53:47.891942
++/run npm run dev
+
+# 2026-01-19 08:54:49.170164
++What's wrong? Fix
+
+# 2026-01-19 08:55:47.491903
++/run npm run dev
+
+# 2026-01-19 08:56:07.771682
++why does it return 304
+
+# 2026-01-19 08:56:29.854353
++/run npm run dev
+
+# 2026-01-19 08:57:13.013313
++n
+
+# 2026-01-19 08:57:30.401713
++when i make a new account and add balance it still doesnt add it, is it stored in the database????????
+
+# 2026-01-19 08:58:02.550673
++/run npm run dev
+
+# 2026-01-19 08:58:33.357239
++n
+
+# 2026-01-19 08:58:44.038146
++when i place a bet it always fucking defaults to 1000 dollars
+
+# 2026-01-19 08:59:10.766222
++/run npm run dev
+
+# 2026-01-19 08:59:55.131018
++What's wrong? Fix
+
+# 2026-01-19 09:00:35.907595
++/model fast
+
+# 2026-01-19 09:00:44.636822
++/weak-model fast
+
+# 2026-01-19 09:00:48.122130
++/reset
+
+# 2026-01-19 09:01:05.899307
++fix my project, the balance doesnt sync with the database
+
+# 2026-01-19 09:01:11.022276
++a
+
+# 2026-01-19 09:03:23.642033
++/run npm run dev
+
+# 2026-01-19 09:04:08.165902
++n
+
+# 2026-01-19 09:04:29.567865
++thank you finally, now rename the casino to PUPS casino and redesign it more like stake.com
+
+# 2026-01-19 09:05:00.881748
++n
+
+# 2026-01-19 09:05:04.383718
++/run npm run dev
+
+# 2026-01-19 09:06:27.545074
++n
+
+# 2026-01-19 09:06:51.456593
++great now lets add dice, basically exactly the same as on stake
+
+# 2026-01-19 09:08:07.371414
++tys to uplne posral, znova
+
+# 2026-01-19 09:08:49.716713
++/run npm run dev
+
+# 2026-01-19 09:09:14.169385
++n
+
+# 2026-01-19 09:09:56.983316
++make the roll be at the top of the game, while also being a slider where you can choose the roll over amount, and make a graphical dice roll there not just a number
+
+# 2026-01-19 09:11:05.969990
++/run npm run dev
+
+# 2026-01-19 09:12:13.818333
++n
+
+# 2026-01-19 09:12:31.295396
++make a history of bets to the right so that its easier to see
+
+# 2026-01-19 09:13:54.318001
++/run npm run dev
+
+# 2026-01-19 09:14:40.137448
++n
+
+# 2026-01-19 09:14:44.323458
++add an all in button to all games
+
+# 2026-01-19 09:16:05.476378
++/help
+
+# 2026-01-27 13:05:43.157647
++/model fast
+
+# 2026-01-27 13:05:49.334678
++/weak-model fast
+
+# 2026-01-27 13:07:02.089583
++the balance checker either rounds wrong or it is missing greater and equal >= somewhere, it doesnt let me bet if its equal to my balance
+
+# 2026-01-27 13:07:08.209431
++a
+
+# 2026-03-11 21:28:01.839075
++/run npm run dev
+
+# 2026-03-11 21:28:42.161789
++n
+
+# 2026-03-11 21:29:01.064694
++make the slots game actually 3 rolling panels, not just going up and down emojis
+
+# 2026-03-11 21:29:16.204650
++d
+
+# 2026-03-11 21:29:53.587741
++/add pages/games/slots.js
+
+# 2026-03-11 21:29:55.917318
++make the slots game actually 3 rolling panels, not just going up and down emojis
+
+# 2026-03-11 21:34:56.817326
++/run npm run dev
+
+# 2026-03-11 21:35:40.645005
++n
+
+# 2026-03-11 21:35:42.523119
++/undo
+
+# 2026-03-11 21:35:47.874250
++/run npm run dev
+
+# 2026-03-11 21:36:29.560696
++n
+
+# 2026-03-11 21:37:14.233181
++okay nevermind, in the dice game theres a bet history, save it into a database, i think theres one that stores the users so add it there, so that the bet history saves in between restarts
+
+# 2026-03-11 21:40:43.225337
++a
+
+# 2026-03-11 21:42:25.623607
++/run npm run dev
+
+# 2026-03-11 21:44:15.785315
++n
+
+# 2026-03-11 21:44:55.939370
++in the bet history it still says no bets yet even after refreshing, it should be a list of bets, and there should be a username of the person that put the bet there
+
+# 2026-03-11 21:50:07.191381
++/run npm run dev
+
+# 2026-03-11 21:50:30.858548
++y
+
+# 2026-03-11 21:50:32.067965
++What's wrong? Fix
+
+# 2026-03-11 21:56:32.276365
++y
+
+# 2026-03-11 21:57:05.553802
++/run npm run dev
+
+# 2026-03-11 21:57:59.951287
++n
+
+# 2026-03-11 21:58:07.848008
++/run npm run dev
+
+# 2026-03-11 21:58:28.585639
++n
+
+# 2026-03-11 21:59:01.340681
++add some spaces here Target: 50
++Rolled: 73
++it is right next to each other, also add a very simple animation of the dice kind of popping in
+
+# 2026-03-12 01:22:55.623343
++d
+
+# 2026-03-12 01:23:04.810873
++y
+
+# 2026-03-16 17:55:44.680370
++/run npm run dev
+
+# 2026-03-16 17:56:42.536406
++n
+
+# 2026-03-16 17:57:23.455796
++in the bet amount field in every game make the step for the arrows one dollar, now its 0.01
+
+# 2026-03-16 18:06:53.868486
++a
+
+# 2026-03-16 18:13:43.148043
++/run npm run dev
+
+# 2026-03-16 18:16:32.230440
++n
+
+# 2026-03-16 18:17:00.526138
++make an animation whenever money is removed or added, green when added and red when removed
+
+# 2026-03-16 18:28:57.942685
++d
+
+# 2026-03-16 18:29:03.638393
++n
+
+# 2026-03-16 18:29:46.425644
++/add games/crash.js
+
+# 2026-03-16 18:29:52.108787
++n
+
+# 2026-03-16 18:29:57.958450
++/add pages/games/crash.js
+
+# 2026-03-16 18:30:02.693839
++/add pages/games/dice.js
+
+# 2026-03-16 18:30:05.796423
++/add pages/games/slot.js
+
+# 2026-03-16 18:30:08.030325
++n
+
+# 2026-03-16 18:30:12.405694
++/add pages/games/slots.js
+
+# 2026-03-16 18:30:18.474290
++make an animation whenever money is removed or added, green when added and red when removed
+
+# 2026-03-16 18:30:53.131102
++y
+
+# 2026-03-16 18:31:40.328950
++n
+
+# 2026-03-17 21:07:37.345438
++/add *
+
+# 2026-03-17 21:07:57.724976
++/drop "1. Added rounding in the game loop"
+
+# 2026-03-17 21:08:03.961861
++/drop "After updating the `package.json`, you should run"
+
+# 2026-03-17 21:08:16.007773
++/drop "Updated `pages/index.js` (Casino Homepage)"
+
+# 2026-03-17 21:08:19.019035
++/drop "Updated `styles/globals.css` (Dark Casino Theme)"
+
+# 2026-03-17 21:09:11.901347
++/asl tell me how should i replace the icons on the homepage for the games, i have square images for them
+
+# 2026-03-17 21:09:16.482727
++/ask tell me how should i replace the icons on the homepage for the games, i have square images for them
+
+# 2026-03-17 21:12:14.402860
++make those changes for me, while removing the games that are not implemented, ill replace the placeholders myself with my images
+
+# 2026-03-17 21:21:53.687389
++y
+
+# 2026-03-17 21:23:17.035113
++/run npm run dev
+
+# 2026-03-17 21:23:42.896288
++y
+
+# 2026-03-17 21:23:56.570315
++tell me what images i should provide for the website
+
+# 2026-03-17 21:26:31.927175
++n
+
+# 2026-03-17 21:27:38.825051
++/run npm run dev
+
+# 2026-03-17 21:27:57.773763
++n
+
+# 2026-03-17 21:28:29.417094
++i made the files images/crash.png, dice.png and slots.png, make them thumbnails for the games
+
+# 2026-03-17 21:35:08.426955
++y
+
+# 2026-03-17 21:40:16.024439
++n
+
+# 2026-03-17 21:40:20.677745
++/run npm run dev
+
+# 2026-03-17 21:41:36.835493
++n
+
+# 2026-03-17 21:41:57.086999
++somewhere along the line you removed a part of the source code
+
+# 2026-03-17 21:42:11.282727
++somewhere along the line you removed a part of the source code of crash Parsing ecmascript source code failed
++  221 |     const maxBet = Math.floor(balance / parseFloat(denomination) || 1);
++  222 |     setBetAmount(maxBet > 0 ? maxBet : 1);
++> 223 |   };
++      |     ^
++  224 |
++  225 |   // ... rest of component rendering ...
++  226 |
+
+# 2026-03-17 21:46:46.777547
++/run npm run dev
+
+# 2026-03-17 22:39:51.905976
++n
+
+# 2026-03-17 22:40:03.594750
++/git
+
+# 2026-03-17 22:43:52.571243
++/undo 
+
+# 2026-03-17 22:44:23.598984
++/help undo
+
+# 2026-03-17 22:44:32.980067
++n
+
+# 2026-03-17 22:44:35.267998
++/help
+
+# 2026-03-17 22:45:25.985998
++/gitk
+
+# 2026-03-17 22:46:28.048898
++/git 
+
+# 2026-03-17 22:46:37.383294
++/git history
+
+# 2026-03-17 22:46:56.432026
++/git log
+
+# 2026-03-17 22:47:29.806655
++/run npm run dev
+
+# 2026-03-17 22:49:03.939877
++n
+
+# 2026-03-17 22:49:23.239922
++remove the games from the homepage that are not implemented
+
+# 2026-03-17 22:52:18.443820
++n
+
+# 2026-03-17 22:52:22.884174
++/run npm run dev
+
+# 2026-03-17 22:53:12.487938
++n
+
+# 2026-03-17 22:54:10.855758
++now lets do something quite big, right now every balance change happens client side, but thats a vulnerability, so now make it so that every transaction happens on the server side and not the client side, use the api
+
+# 2026-03-17 23:02:28.067647
++n
+
+# 2026-03-17 23:02:30.307669
++/run npm run dev
+
+# 2026-03-17 23:04:31.231032
++n
+
+# 2026-03-17 23:04:51.364357
++remove the add 1000$ button
+
+# 2026-03-17 23:06:22.714967
++n
+
+# 2026-03-17 23:06:25.485331
++/run npm run dev
+
+# 2026-03-17 23:06:48.312751
++n
+
+# 2026-03-17 23:06:56.967490
++add realistic max bets to all of the games
+
+# 2026-03-18 07:37:50.007082
++/add pages/games/crash.js
+
+# 2026-03-18 07:38:59.162287
++make it so that the auto cash out works in the crash game and also remove the cash out all button when all bets are cashed out
+
+# 2026-03-18 07:46:17.771657
++/run npm run dev
+
+# 2026-03-18 07:47:26.267648
++n
+
+# 2026-03-18 07:47:30.870352
++/add pages/games/dice.js
+
+# 2026-03-18 07:47:36.637667
++/add pages/games/slots.js
+
+# 2026-03-18 07:47:42.202065
++/add pages/index.js
+
+# 2026-03-18 07:48:13.322121
++now lets implement another game, blackjack, only one hand but with full functionality with split and double
+
+# 2026-03-18 08:26:53.215726
++y
+
+# 2026-03-18 08:32:53.460364
++/run npm run dev
+
+# 2026-03-18 08:34:45.933912
++n
+
+# 2026-03-18 08:35:16.319568
++it doesnt remove money when you click deal cards, also make the font on the cards black and also add the blackjack game to the home page
+
+# 2026-03-18 09:11:55.667335
++n
+
+# 2026-03-18 09:11:58.638522
++/run npm run dev
+
+# 2026-03-18 09:14:30.755431
++n
+
+# 2026-03-18 09:15:15.932443
++great job now add a mines game, where you can choose how many mines and how much to bet and then theres a 5x5 field where there can be a gem or a mine
+
+# 2026-03-18 09:19:59.833662
++y
+
+# 2026-03-18 09:21:36.907018
++/run npm run dev
+
+# 2026-03-18 09:22:27.096278
++n
+
+# 2026-03-18 09:22:58.826994
++thats wrong, make it have a worse RTP so its realistic and whenever you click a bomb you lose
+
+# 2026-03-18 11:52:19.728910
++make it so that after you win or lose you will see the rest of the nodes so you could see where the mines were
+
+# 2026-03-18 11:53:05.831305
++y
+
+# 2026-03-18 14:26:53.418798
++/add pages/games/blackjack.js 
+
+# 2026-03-18 14:27:05.932846
++the double button doesnt actually put more money in, fix it
+
+# 2026-03-18 14:37:33.218773
++Parsing ecmascript source code failed
++  204 |     const doubledBet = betAmount * 2;
++  205 |     const newBalance = balance - doubledBet;
++> 206 |     await updateBalance(newBalance);
++      |     ^^^^^
++  207 |     
++  208 |     const newDeck = [...deck];
++  209 |     const newCard = newDeck.pop();
++
++await isn't allowed in non-async function
+
+# 2026-03-19 22:40:28.463380
++/add pages/games/blackjack.js
+
+# 2026-03-19 22:40:31.677091
++Parsing ecmascript source code failed
++./pages/games/blackjack.js (206:5)
++
++Parsing ecmascript source code failed
++  204 |     const doubledBet = betAmount * 2;
++  205 |     const newBalance = balance - doubledBet;
++> 206 |     await updateBalance(newBalance);
++      |     ^^^^^
++  207 |     
++  208 |     const newDeck = [...deck];
++  209 |     const newCard = newDeck.pop();
++
++await isn't allowed in non-async function
+
+# 2026-03-19 22:44:36.764500
++/run npm run dev
+
+# 2026-03-19 22:45:01.116555
++n
+
+# 2026-03-19 22:45:15.899358
++for some reason the split doesnt work when i have a 10 and a jack, fix it
+
+# 2026-03-19 22:50:47.608759
++/run npm run dev
+
+# 2026-03-19 22:54:25.708016
++n
+
+# 2026-03-19 22:54:42.724754
++/add pages/*
+
+# 2026-03-19 22:55:03.450117
++/drop *
+
+# 2026-03-19 22:55:08.008023
++/add pages/leaderboard.js
+
+# 2026-03-19 22:55:19.823270
++/add pages/api/db.js
+
+# 2026-03-19 22:55:39.132901
++make it so that the leaderboard shows the top 10 players with the most money
+
+# 2026-03-19 22:59:05.568173
++/run npm run dev
+
+# 2026-03-19 22:59:21.694914
++n
+
+# 2026-03-19 22:59:37.087527
++Here’s your text translated into English and turned into a clear AI prompt that generates a `documentation.md` file:
++
++---
++
++**AI Prompt:**
++
++Write a complete project documentation file named `documentation.md` in Markdown format. The documentation should be well-structured, clear, and professional.
++
++The document must include the following sections:
++
++1. **Project Title, Author Name, and Field of Study**
++
++2. **Annotation**
++   A brief summary describing what the project is about.
++
++3. **Introduction**
++   A more detailed description of the project, approximately 0.5 to 1 standard page in length.
++
++4. **Economic Analysis**
++
++   * Description of competitors
++   * Explanation of how this project is better or different
++   * Marketing/promotion strategy
++   * Return on investment (ROI)
++
++5. **Development**
++
++   * Technologies used
++   * Structure of the application
++   * Description of the development process
++   * Include information about code documentation (if applicable)
++   * Provide enough detail so that a reader could recreate or learn from the project
++   * Optionally include diagrams (e.g., development diagram or class diagram)
++
++6. **Testing**
++
++   * Describe 5 test scenarios
++   * Include the results of each test
++   * One of the scenarios must cover deployment (application launch)
++
++7. **Deployment Instructions**
++
++   * Explain how to deploy and run the project
++   * List all requirements and dependencies
++
++8. **License**
++
++9. **Repository Link**
++
++   * Provide a link to Git (or similar version control system)
++
++10. **Conclusion**
++
++* Final evaluation and reflection on the project
++
++Format everything cleanly using Markdown headings, lists, and sections.
++
+
+# 2026-03-19 22:59:59.102509
++/add *
+
+# 2026-03-19 23:00:36.820041
++if you dont know any information just do a placeholder and ill put the information there myself
+
+# 2026-03-19 23:06:13.411551
++y
+
+# 2026-03-19 23:06:16.088280
++n
+
+# 2026-03-19 23:07:40.100985
++/add *
+
+# 2026-03-19 23:08:02.695079
++you did absolutely nothing, add information about the casino project into the documentation.md file
+
+# 2026-03-19 23:09:56.747108
++n
+
+# 2026-03-19 23:15:20.905714
++/add *
+
+# 2026-03-19 23:15:41.739747
++generate me a .gitignore file for this project, it has 600 MB for some reason
+
+# 2026-03-19 23:16:11.309067
++y
